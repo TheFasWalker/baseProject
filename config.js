@@ -1,4 +1,5 @@
 export const config = {
+    'outputDir':'./dist2',
     'os':'',// если ставится на винде то прописать win
     'webServer': {
         'port': 3000,

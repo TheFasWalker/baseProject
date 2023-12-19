@@ -9,3 +9,9 @@ export const resetPageStructure = () => {
 export const resetCssFiles = () => {
     return deleteAsync(app.path.build.css)
 }
+export const resetJsFiles = () => {
+    return deleteAsync(app.path.build.js)
+}
+export const resetImagesFiles = () => {
+    return deleteAsync(app.path.build.images)
+}
